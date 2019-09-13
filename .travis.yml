@@ -5,7 +5,9 @@ node_js:
 cache:
   yarn: true
 
-script: yarn ci
+script:
+  - yarn build
+  - yarn ci
 
 branches:
   only:
