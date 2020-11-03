@@ -11,6 +11,7 @@ jobs:
     strategy:
       matrix:
         node: [ 12, 14 ]
+      fail-fast: false
 
     steps:
       - name: Checkout repository
