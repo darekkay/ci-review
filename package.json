@@ -1,6 +1,16 @@
 {
   "name": "ci-monorepo",
   "version": "1.0.0",
+  "devDependencies": {
+    "@darekkay/eslint-config": "2.3.0",
+    "eslint": "7.12.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-unicorn": "23.0.0",
+    "prettier": "2.1.2"
+  },
   "private": true,
-  "scripts": {}
+  "scripts": {
+    "lint": "eslint client"
+  }
 }
