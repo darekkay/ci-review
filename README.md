@@ -1,5 +1,3 @@
 # CI Review
 
-![GitLab CI](https://img.shields.io/gitlab/pipeline/darekkay/ci-review?style=flat-square)
-
-...
+[![Build](https://img.shields.io/github/workflow/status/darekkay/ci-review/Continuous%20Integration/master?style=flat-square)](https://github.com/darekkay/ci-review/actions)
