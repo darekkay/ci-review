@@ -7,7 +7,7 @@ jobs:
   include:
     - name: client
       node_js:
-        - "10"
+        - "18"
       script:
         - cd client
         - yarn install --pure-lockfile --prefer-offline
@@ -15,7 +15,7 @@ jobs:
         - yarn build
     - name: server
       node_js:
-        - "10"
+        - "18"
       script:
         - cd server
         - yarn install --pure-lockfile --prefer-offline

@@ -2,7 +2,7 @@ stages:
   - test
 
 .job:
-  image: node:10
+  image: node:18
 
   stage: test
 
