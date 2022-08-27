@@ -10,7 +10,7 @@ jobs:
         - "18"
       script:
         - cd client
-        - yarn install --pure-lockfile --prefer-offline
+        - yarn install --immutable
         - yarn test
         - yarn build
     - name: server
@@ -18,7 +18,7 @@ jobs:
         - "18"
       script:
         - cd server
-        - yarn install --pure-lockfile --prefer-offline
+        - yarn install --immutable
         - yarn build
         - yarn test
 
@@ -35,7 +35,7 @@ branches:
 #
 # script:
 #   - cd $DIR
-#   - yarn install --pure-lockfile --prefer-offline
+#   - yarn install --immutable
 #   - yarn build
 #   - yarn test
 #

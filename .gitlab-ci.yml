@@ -8,7 +8,7 @@ stages:
 
   before_script:
     - cd $DIR
-    - yarn install --pure-lockfile --prefer-offline --cache-folder .yarn
+    - yarn install --immutable
 
   script:
     - yarn test

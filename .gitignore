@@ -1,9 +1,10 @@
 ### Node.js ###
 
 node_modules
-/.pnp
-.pnp.js
 package-lock.json
+.pnp.*
+.pnp/
+.yarn/*
 
 ### IDE ###
 
